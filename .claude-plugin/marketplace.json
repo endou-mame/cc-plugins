@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins-2",
+  "version": "1.0.0",
+  "description": "CLAUDE.md、Skills、Sub Agent の作成を支援するプラグイン集",
+  "owner": {
+    "name": "endou-mame"
+  },
+  "plugins": [
+    {
+      "name": "cc-helper",
+      "description": "CLAUDE.md、Skills、Sub Agent の作成を支援するスキル",
+      "version": "1.0.0",
+      "author": {
+        "name": "endou-mame"
+      },
+      "source": "./cc-helper",
+      "category": "development"
+    }
+  ]
+}
