@@ -1,4 +1,4 @@
-# claude-plugins-2
+# claude-plugins
 
 Claude Code の拡張機能作成を支援するプラグイン集。
 
@@ -7,13 +7,13 @@ Claude Code の拡張機能作成を支援するプラグイン集。
 ### 1. マーケットプレイスを追加
 
 ```
-/plugin marketplace add endou-mame/claude-plugins-2
+/plugin marketplace add endou-mame/claude-plugins
 ```
 
 ### 2. プラグインをインストール
 
 ```
-/plugin install cc-helper@claude-plugins-2
+/plugin install cc-helper@claude-plugins
 ```
 
 ## 含まれるプラグイン
@@ -29,6 +29,15 @@ CLAUDE.md、Skills、Sub Agent の作成を支援するスキル。
 3. Sub Agent の発動率最適化
 4. CLAUDE.md/Skills/Sub Agent の関係性理解
 5. スキルやエージェントが発動しない問題のデバッグ
+
+### cc-skill-agent-guide
+
+このスキルは以下のトピックをカバーします:
+
+- **スキルの作成方法**: SKILL.md のフォーマット、権限設定
+- **サブエージェントの作成方法**: agents/ ディレクトリの構成
+- **CLAUDE.md のベストプラクティス**: WHAT/WHY/HOW 構造、Progressive Disclosure
+- **発動率を上げる方法**: description の書き方、起動条件の明記
 
 ## 使用方法
 

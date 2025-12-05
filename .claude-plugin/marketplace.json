@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-plugins-2",
+  "name": "claude-plugins",
   "version": "1.0.0",
   "description": "CLAUDE.md、Skills、Sub Agent の作成を支援するプラグイン集",
   "owner": {
@@ -14,8 +14,17 @@
       "author": {
         "name": "endou-mame"
       },
-      "source": "./cc-helper",
+      "source": "./plugins/cc-helper",
       "category": "development"
+    },
+    {
+      "name": "cc-skill-agent-guide",
+      "description": "Claude Code のスキルとサブエージェントを作成・設定するためのガイド。「スキルを作りたい」「サブエージェントを作りたい」「Claude Code をカスタマイズしたい」「CLAUDE.md を書きたい」「エージェントが発動しない」で使用。",
+      "source": "./plugins/cc-skill-agent-guide",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": ["skill", "subagent", "claude-code", "customization", "guide"],
+      "keywords": ["skill", "agent", "CLAUDE.md", "カスタマイズ", "設定"]
     }
   ]
 }
