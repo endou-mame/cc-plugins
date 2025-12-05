@@ -88,7 +88,7 @@ CLAUDE.md                    # 起動条件・全体ルール
 **解決**: 
 - 普遍的に適用可能な内容のみ記載
 - タスク固有の指示は別ファイルに分離（Progressive Disclosure）
-- 300行未満を目標、短いほど良い
+- 300 行未満を目標、短いほど良い
 
 詳細 → [references/claude-md-best-practices.md](references/claude-md-best-practices.md)
 
@@ -108,7 +108,7 @@ CLAUDE.md                    # 起動条件・全体ルール
 
 ### サブエージェントの発動率が低い
 
-**原因**: description マッチングに依存（約25%）
+**原因**: description マッチングに依存（約 25%）
 
 **解決**: CLAUDE.md に起動条件を明記 → 発動率 100%
 
@@ -125,4 +125,4 @@ CLAUDE.md                    # 起動条件・全体ルール
 テンプレートファイル:
 - [assets/skill-template.md](assets/skill-template.md) - スキル用
 - [assets/agent-template.md](assets/agent-template.md) - サブエージェント用
-- [assets/claude-md-template.md](assets/claude-md-template.md) - CLAUDE.md 用（WHAT/WHY/HOW構造）
+- [assets/claude-md-template.md](assets/claude-md-template.md) - CLAUDE.md 用（WHAT/WHY/HOW 構造）

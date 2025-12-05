@@ -25,6 +25,18 @@
       "category": "development",
       "tags": ["skill", "subagent", "claude-code", "customization", "guide"],
       "keywords": ["skill", "agent", "CLAUDE.md", "カスタマイズ", "設定"]
+    },
+    {
+      "name": "cc-builder",
+      "description": "プロジェクト構造を分析し CLAUDE.md、skills、hooks、agents、commands を自動生成するスキル。「Claude 設定を生成」「CLAUDE.md を作成」「プロジェクトを初期化」「Claude をセットアップ」「Claude 設定を更新」「再解析」で使用。",
+      "source": "./plugins/cc-builder",
+      "version": "1.0.0",
+      "author": {
+        "name": "endou-mame"
+      },
+      "category": "development",
+      "tags": ["setup", "generator", "CLAUDE.md", "skills", "hooks", "agents"],
+      "keywords": ["初期化", "生成", "セットアップ", "自動生成", "プロジェクト分析"]
     }
   ]
 }
