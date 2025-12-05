@@ -1,0 +1,8 @@
+{
+  "name": "cc-helper",
+  "version": "1.0.0",
+  "description": "CLAUDE.md、Skills、Sub Agent の作成を支援するスキル",
+  "author": {
+    "name": "endou-mame"
+  }
+}
