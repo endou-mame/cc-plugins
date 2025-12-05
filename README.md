@@ -13,71 +13,40 @@ Claude Code の拡張機能作成を支援するプラグイン集。
 ### 2. プラグインをインストール
 
 ```
-/plugin install cc-helper@cc-plugins
+/plugin install cc-optimizer@cc-plugins
 ```
 
 ## 含まれるプラグイン
 
-### cc-helper
+### cc-optimizer
 
-CLAUDE.md、Skills、Sub Agent の作成を支援するスキル。
+プロジェクト構造を分析し、最適な Claude Code 設定を自動生成するスキル。
 
-以下の場合に使用:
+#### 機能
 
-1. CLAUDE.md ファイルの作成・改善
-2. Skills の構造設計（SKILL.md、scripts/、references/、assets/）
-3. Sub Agent の発動率最適化
-4. CLAUDE.md/Skills/Sub Agent の関係性理解
-5. スキルやエージェントが発動しない問題のデバッグ
+- プロジェクトの技術スタック自動検出（言語、フレームワーク、パッケージマネージャー）
+- CLAUDE.md の生成
+- エージェント定義の生成（code-explorer、code-reviewer など）
+- hooks.json の生成（lint/format 自動実行）
+- コマンドの生成（/feature、/test、/review など）
 
-### cc-skill-agent-guide
+#### 使用方法
 
-このスキルは以下のトピックをカバーします:
+スキルをインストール後、以下のようなプロンプトで呼び出せる。
 
-- **スキルの作成方法**: SKILL.md のフォーマット、権限設定
-- **サブエージェントの作成方法**: agents/ ディレクトリの構成
-- **CLAUDE.md のベストプラクティス**: WHAT/WHY/HOW 構造、Progressive Disclosure
-- **発動率を上げる方法**: description の書き方、起動条件の明記
+- 「Claude 設定を生成して」
+- 「CLAUDE.md を作成して」
+- 「プロジェクトを初期化して」
+- 「Claude 設定を更新して」
 
-## 使用方法
+#### コマンド
 
-スキルをインストール後、以下のようなプロンプトで呼び出せます:
-
-- 「CLAUDE.md を作成したい」
-- 「スキルを作りたい」
-- 「エージェントの発動率を上げたい」
-- 「スキルが発動しない」
-
-## 主な内容
-
-### CLAUDE.md ガイド
-
-- WHAT/WHY/HOW フレームワーク
-- トークン予算（150-200 命令、300 行以下）
-- Progressive Disclosure パターン
-- エージェント起動条件の記述方法
-
-### Skill 構造ガイド
-
-- SKILL.md の書き方
-- description 最適化（トリガーメカニズム）
-- バンドルリソースの使い分け（scripts/、references/、assets/）
-
-### Sub Agent ガイド
-
-- エージェントファイル形式
-- 発動率最適化テクニック（約 25% → 100%）
-- CLAUDE.md との連携
-
-### 発動メカニズム
-
-- 各コンポーネントの発動条件
-- デバッグ方法
-- 最適化戦略
+- `/cc-build` - 新規プロジェクト用の設定生成
+- `/cc-update` - 既存設定の更新
 
 ## 注意事項
 
-Skill ツールを使用するには、settings.json で許可が必要な場合があります:
+Skill ツールを使用するには、settings.json で許可が必要な場合がある。
 
 ```json
 {

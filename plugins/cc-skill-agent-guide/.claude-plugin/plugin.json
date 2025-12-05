@@ -1,8 +1,0 @@
-{
-  "name": "cc-skill-agent-guide",
-  "description": "Claude Code のスキルとサブエージェントを作成・設定するためのガイド。「スキルを作りたい」「サブエージェントを作りたい」「Claude Code をカスタマイズしたい」「CLAUDE.md を書きたい」「エージェントが発動しない」で使用。",
-  "version": "1.0.0",
-  "author": {
-    "name": "endou-mame"
-  }
-}

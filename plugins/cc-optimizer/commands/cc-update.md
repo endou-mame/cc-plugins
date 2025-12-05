@@ -5,12 +5,12 @@ argument-hint: "[path/to/project]"
 
 # Claude Code 設定更新
 
-cc-builder スキルを使用してプロジェクトを再分析し、既存の Claude Code 設定を更新する。
+cc-optimizer スキルを使用してプロジェクトを再分析し、既存の Claude Code 設定を更新する。
 
 ## 実行方法
 
-1. cc-builder スキルを呼び出す:
-   - `skill: "cc-builder:cc-builder"`
+1. cc-optimizer スキルを呼び出す:
+   - `skill: "cc-optimizer:cc-optimizer"`
 
 2. スキルの「更新モード」を使用して以下を実行:
    - 既存設定の読み込み

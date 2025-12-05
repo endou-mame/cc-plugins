@@ -5,12 +5,12 @@ argument-hint: "[path/to/project]"
 
 # Claude Code 設定生成
 
-cc-builder スキルを使用してプロジェクトを分析し、最適な Claude Code 設定を生成する。
+cc-optimizer スキルを使用してプロジェクトを分析し、最適な Claude Code 設定を生成する。
 
 ## 実行方法
 
-1. cc-builder スキルを呼び出す:
-   - `skill: "cc-builder:cc-builder"`
+1. cc-optimizer スキルを呼び出す:
+   - `skill: "cc-optimizer:cc-optimizer"`
 
 2. スキル指示に従い、以下の順序で処理を実行:
    - プロジェクト分析（analyze-project.py）

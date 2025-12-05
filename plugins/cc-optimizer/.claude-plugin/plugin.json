@@ -1,5 +1,5 @@
 {
-  "name": "cc-builder",
+  "name": "cc-optimizer",
   "version": "1.0.0",
   "description": "プロジェクト構造を分析し CLAUDE.md、skills、hooks、agents、commands を自動生成するスキル",
   "author": {

@@ -2,34 +2,15 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "cc-plugins",
   "version": "1.0.0",
-  "description": "CLAUDE.md、Skills、Sub Agent の作成を支援するプラグイン集",
+  "description": "Claude Code の拡張機能作成を支援するプラグイン集",
   "owner": {
     "name": "endou-mame"
   },
   "plugins": [
     {
-      "name": "cc-helper",
-      "description": "CLAUDE.md、Skills、Sub Agent の作成を支援するスキル",
-      "version": "1.0.0",
-      "author": {
-        "name": "endou-mame"
-      },
-      "source": "./plugins/cc-helper",
-      "category": "development"
-    },
-    {
-      "name": "cc-skill-agent-guide",
-      "description": "Claude Code のスキルとサブエージェントを作成・設定するためのガイド。「スキルを作りたい」「サブエージェントを作りたい」「Claude Code をカスタマイズしたい」「CLAUDE.md を書きたい」「エージェントが発動しない」で使用。",
-      "source": "./plugins/cc-skill-agent-guide",
-      "version": "1.0.0",
-      "category": "development",
-      "tags": ["skill", "subagent", "claude-code", "customization", "guide"],
-      "keywords": ["skill", "agent", "CLAUDE.md", "カスタマイズ", "設定"]
-    },
-    {
-      "name": "cc-builder",
+      "name": "cc-optimizer",
       "description": "プロジェクト構造を分析し CLAUDE.md、skills、hooks、agents、commands を自動生成するスキル。「Claude 設定を生成」「CLAUDE.md を作成」「プロジェクトを初期化」「Claude をセットアップ」「Claude 設定を更新」「再解析」で使用。",
-      "source": "./plugins/cc-builder",
+      "source": "./plugins/cc-optimizer",
       "version": "1.0.0",
       "author": {
         "name": "endou-mame"

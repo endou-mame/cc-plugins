@@ -1,9 +1,9 @@
 ---
-name: cc-builder
+name: cc-optimizer
 description: プロジェクト構造を分析し CLAUDE.md、skills、hooks、agents、commands を自動生成するスキル。「Claude 設定を生成」「CLAUDE.md を作成」「プロジェクトを初期化」「Claude をセットアップ」と言われた場合に使用。既存設定がある場合は「Claude 設定を更新」「再解析」で最新化。
 ---
 
-# CC Builder
+# CC Optimizer
 
 プロジェクト構造を分析し、最適な Claude Code 設定を自動生成する。
 
