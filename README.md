@@ -1,4 +1,4 @@
-# claude-plugins
+# cc-plugins
 
 Claude Code の拡張機能作成を支援するプラグイン集。
 
@@ -7,13 +7,13 @@ Claude Code の拡張機能作成を支援するプラグイン集。
 ### 1. マーケットプレイスを追加
 
 ```
-/plugin marketplace add endou-mame/claude-plugins
+/plugin marketplace add endou-mame/cc-plugins
 ```
 
 ### 2. プラグインをインストール
 
 ```
-/plugin install cc-helper@claude-plugins
+/plugin install cc-helper@cc-plugins
 ```
 
 ## 含まれるプラグイン
