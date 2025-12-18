@@ -18,6 +18,18 @@
       "category": "development",
       "tags": ["setup", "generator", "CLAUDE.md", "skills", "hooks", "agents"],
       "keywords": ["初期化", "生成", "セットアップ", "自動生成", "プロジェクト分析"]
+    },
+    {
+      "name": "drawio",
+      "description": "draw.io 図作成のドキュメンテーションアシスタント。XML 構造、フォント設定、矢印配置、PNG 変換などのベストプラクティスを提供。",
+      "source": "./plugins/drawio",
+      "version": "1.0.0",
+      "author": {
+        "name": "endou-mame"
+      },
+      "category": "documentation",
+      "tags": ["drawio", "diagram", "documentation"],
+      "keywords": ["draw.io", "diagram", "xml", "図", "作図"]
     }
   ]
 }
