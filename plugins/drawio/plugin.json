@@ -1,5 +1,4 @@
 {
-  "$schema": "https://cdn.jsdelivr.net/gh/anthropics/claude-code@latest/plugin.schema.json",
   "name": "drawio",
   "description": "DRAWIO documentation assistant (user)",
   "version": "1.0.0"
